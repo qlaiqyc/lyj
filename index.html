@@ -6,11 +6,11 @@
 		<link  rel="stylesheet" href="//cdn.bootcss.com/unslider/2.0.3/css/unslider.css" />
 		
 		<style type="text/css">
-			body{margin:0;}
+			body{margin:0;font-family: "microsoft yahei";}
 			.main-content{width:980px}
 			.main-center{display:table;margin:10px auto}
 			.icon-logo{background:url("http://static.sunyuki.com/img/logo.png?version=0.0.2") no-repeat;height:42px;width:177px;float:left}
-			.main-header-menu ul li{list-style:none;float:left;height:46px}
+			.main-header-menu ul li{list-style:none;float:left;height:46px;cursor: pointer;}
 			.main-header-menu ul{padding:0;margin:0}
 			.main-header-menu-type{line-height:3;float:left;padding:0 50px;line-height:2;color:#666;margin-top:7px;display:block}
 			.main-header-menu-name{border: 1px solid #EEEEEE; position: absolute; background-color: #fff;  top: 157px; z-index: 1;  text-align: left; cursor: auto; line-height: 14px;}
@@ -34,107 +34,221 @@
 			.unslider-nav li.unslider-active{background:#fff;opacity:1}
 			.unslider-arrow-prev{background: url(resource/img/unsilder/arrowl.png) no-repeat;height: 38px; width: 24px; margin-top: 190px;}
 			.unslider-arrow-next{background: url(resource/img/unsilder/arrowr.png) no-repeat;height: 38px; width: 24px; margin-top: 190px;}
-		
+			
+			.main-type-item {width: 1210px;  margin: 0 auto;margin-bottom: 50px;}
+			.main-type-item a{display: inline-block; padding: 10px; border: 1px solid #e3e3e3; margin-top: 20px; margin-left: 38px;text-decoration: none;}
+			.main-type-item a img{width: 227px;height: 227px;}
+			.main-type-item-name{    font-size: 12px; color: #333330;}
+			.main-type-item-price{color: #1daa39; display: inline-block; height: 15px; line-height: 14px;}
+			.main-type-item-weight{color: #999; display: inline-block; height: 17px; line-height: 17px; margin-left: 10px;}
+			.main-type-tite	{width: 1210px; margin: 0 auto; padding-left: 89px; font-size: 26px; margin-top: 31px;}
+			#main-product{margin-bottom: 100px;}
 		</style>
 	</head>
 	<body>
 		<div id="main-header" class="">
-			<div class="" style="background-color: #00aa3a; height: 48px;"></div>	
-					<div class="main-center  ">
-						<span class="icon-logo">&nbsp;</span>
-					</div>
-					<div class="main-header-menu main-center main-conten" style="border-top: 1px solid #e3e3e3;  width: 100%;    margin-bottom: 0;">
-						<ul style="display: table;margin: 0 auto;">
-						<li><span class="split-line"></span><span class="main-header-menu-type main-header-menu-product">公司介绍</span>  
-							<div id="main-header-product-item">
-								
-							   <div class="main-header-menu-name">
-								<a href="http://www.sunyuki.com/items/category/85/0">
-								<img src="//img.sunyuki.com/other/cate_85.png/60x60">
-								<span class="name">肉禽蛋品</span>
-								<span class="right-arrow"></span>
-								</a>
-								</div>
-								
-								<div class="main-header-menu-name">
-								<a href="http://www.sunyuki.com/items/category/85/0">
-								<img src="//img.sunyuki.com/other/cate_85.png/60x60">
-								<span class="name">肉禽蛋品</span>
-								<span class="right-arrow"></span>
-								</a>
-								</div>
-								
-							</div>
-						</li>
-						<li><span class="split-line"></span><span class="main-header-menu-type">产品介绍</span><div></div></li>
-						<li><span class="split-line"></span><span class="main-header-menu-type">在路上  </span><div></div></li>
-						<li><span class="split-line"></span><span class="main-header-menu-type">人力资源</span><div></div></li>
-						<li><span class="split-line"></span><span class="main-header-menu-type">联系我们</span><div></div></li>
-							
-						</ul>
-						
-					</div>
-		
-		</div>
-		
-		
-		
-		<div id="main-nav">
-			
-		</div>
-		<div id="main-item">
-			
-		</div>
-		
-		
-		
-		<div class="plug-unsilder" id="plug-unsilder">
+    <div class="" style="background-color: #00aa3a; height: 48px;"></div>
+    <div class="main-center  ">
+        <span class="icon-logo">&nbsp;</span>
+    </div>
+    <div class="main-header-menu main-center main-conten" style="border-top: 1px solid #e3e3e3;  width: 100%;    margin-bottom: 0;">
+        <ul style="display: table;margin: 0 auto;">
+            <li><span class="split-line"></span><span class="main-header-menu-type main-header-menu-product">公司介绍</span>
+                <!--    <div id="main-header-product-item">
+
+	                    <div class="main-header-menu-name">
+	                        <a href="http://www.sunyuki.com/items/category/85/0">
+	                            <img src="//img.sunyuki.com/other/cate_85.png/60x60">
+	                            <span class="name">肉禽蛋品</span>
+	                            <span class="right-arrow"></span>
+	                        </a>
+	                    </div>
+
+	                    <div class="main-header-menu-name">
+	                        <a href="http://www.sunyuki.com/items/category/85/0">
+	                            <img src="//img.sunyuki.com/other/cate_85.png/60x60">
+	                            <span class="name">肉禽蛋品</span>
+	                            <span class="right-arrow"></span>
+	                        </a>
+	                    </div>
+
+	                </div>
+	            -->
+            </li>
+            <li><span class="split-line"></span><span class="main-header-menu-type">产品介绍</span>
+                <div></div>
+            </li>
+            <li><span class="split-line"></span><span class="main-header-menu-type">在路上  </span>
+                <div></div>
+            </li>
+            <li><span class="split-line"></span><span class="main-header-menu-type">人力资源</span>
+                <div></div>
+            </li>
+            <li><span class="split-line"></span><span class="main-header-menu-type">联系我们</span>
+                <div></div>
+            </li>
+
+        </ul>
+
+    </div>
+
+</div>
+
+<div class="plug-unsilder" id="plug-unsilder">
     <ul>
         <li><img src="resource/img/unsilder/1.jpg"></li>
         <li><img src="resource/img/unsilder/2.jpg"></li>
         <li><img src="resource/img/unsilder/1.jpg"></li>
     </ul>
- <a href="#" class="unslider-arrow prev unslider-arrow-prev"></a>
-<a href="#" class="unslider-arrow next unslider-arrow-next"></a> 
+    <a href="#" class="unslider-arrow prev unslider-arrow-prev"></a>
+    <a href="#" class="unslider-arrow next unslider-arrow-next"></a>
 </div>
 
-		 
+<div id="main-product">
+
+    <div class="main-item">
+
+        <div class="main-type-tite"> <span>名正言顺 大口吃肉</span></div>
+
+        <div class="main-type-item">
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+
+        </div>
+    </div>
+    <div class="main-item">
+
+        <div class="main-type-tite"> <span>名正言顺 大口吃肉</span></div>
+
+        <div class="main-type-item">
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+
+        </div>
+    </div>
+    <div class="main-item">
+
+        <div class="main-type-tite"> <span>名正言顺 大口吃肉</span></div>
+
+        <div class="main-type-item">
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+
+        </div>
+    </div>
+    <div class="main-item">
+
+        <div class="main-type-tite"> <span>名正言顺 大口吃肉</span></div>
+
+        <div class="main-type-item">
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+
+        </div>
+    </div>
+    <div class="main-item">
+
+        <div class="main-type-tite"> <span>名正言顺 大口吃肉</span></div>
+
+        <div class="main-type-item">
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+            <a class="link" target="_blank" href="http://www.sunyuki.com/items/8364">
+                <img src="//img.sunyuki.com/items/a2887355-fb1a-46f9-835f-fdb5b79de4be.jpg/225x225" alt="谷饲黑猪后腿肉">
+                <h2><span class="main-type-item-name">谷饲黑猪后腿肉</span></h2>
+                <p><span class="main-type-item-price">￥49.60</span><span class="main-type-item-weight">500g</span></p>
+            </a>
+
+        </div>
+    </div>
+</div>
 	</body>
 	<script src="//cdn.bootcss.com/jquery/3.1.0/jquery.min.js" ></script>
 	<script src="//cdn.bootcss.com/unslider/2.0.3/js/unslider-min.js"></script>
-	<script>
-		//轮播组件
-		var $silder = $('#plug-unsilder')
-		var unslider = $silder.unslider();
-
-	    $silder.find('a.unslider-arrow').click(function() {
-	        var fn = this.className.split(' ')[1];
-	        unslider.data('unslider')[fn]();
-	    });
-	    
-	    //导航按钮
-	    var $heade = $("#main-header");
-	    
-	    $heade.find("span.main-header-menu-product").hover(function(){
-	    	
-	    	var $this = $(this).closest("li");
-	    	
-	    	$this.find("span.split-line").addClass("split-line-hight");
-	    	$this.next().find("span.split-line").addClass("split-line-hight");
-	    	
-	    	$("#main-header-product-item").show();
-	    	
-	    });
-	    
-	    $("#main-header-product-item").mouseleave(function(){
-	    	$(this).hide();
-	    	
-	    	var $this = $(this).closest("li");
-	    	
-	    	$this.find("span.split-line-hight").removeClass("split-line-hight");
-	    	$this.next().find("span.split-line-hight").removeClass("split-line-hight");
-	    });
-	    
-	</script>
+	<script src="resource/js/base.js"> </script>
 </html>
- 
